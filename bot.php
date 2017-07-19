@@ -5,8 +5,8 @@
   2017
  */
 require_once('./line_class.php');
-$channelAccessToken = '92+ky2kHyvKyogqCH4iHGRDW9HBhNnE0e0xSMAqzzHEHHKWvBvgqD4tpr3UAErHcN6T2W2/hGMatVkpHIQ7r9zBd6u/tP+5j9jH0QsqnO5SkOdCdT43e++Dcb8z193Mdc1ujEduckp9wB0NGPW1R4gdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = '65071d78872f614759d5c7d6acd45f0a'; //sesuaikan
+$channelAccessToken = 'RM79rB1wuIG8OnkaLFITB2lwcsTOJ0Cd0fAZvo+KiWmpAZq3bVzAitMIU0XG0R+ze4IwJ8FMYbhiR5u6of8aq6q3nav0c10BV1KXTA/HT+GbI1wqNEtK9AYiU5g/hgqjP7WyCni9yTir5XaI0hOqLQdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = 'e3661781d104eb8f40de16887f0e9078'; //sesuaikan
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 //var_dump($client->parseEvents());
 //$_SESSION['userId']=$client->parseEvents()[0]['source']['userId'];
